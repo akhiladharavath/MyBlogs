@@ -21,7 +21,7 @@ Before you begin, ensure you have met the following requirements:
 git clone https://github.com/akhiladharavath/MyBlogs.git
 ```
 
-####  Set up the database by logging into your MySQL server and running the following command
+###  Set up the database by logging into your MySQL server and running the following command
 
 CREATE DATABASE blogs;
 USE blogs;
@@ -43,7 +43,7 @@ CREATE TABLE posts (
 );
 
 
-#### Update the file with your MySQL username, password, and the name of the database you created earlier:
+### Update the file with your MySQL username, password, and the name of the database you created earlier:
 
 
 // Example configuration settings
@@ -52,7 +52,7 @@ define('DB_USER', '<YourDatabaseUsername>');
 define('DB_PASS', '<YourDatabasePassword>');
 define('DB_NAME', 'blogs');
 
-#### Running the Application with the PHP Built-in Server
+### Running the Application with the PHP Built-in Server
 
 To run the application on your local machine, follow these steps:
 
@@ -66,7 +66,7 @@ cd path/to/MyBlogs
 
 ` php -S localhost:8000 -t public `.
 
-#### Registration and Login
+### Registration and Login
 
 MyBlogs allows new users to register and existing users to log in. Follow these steps to use these features:
 
